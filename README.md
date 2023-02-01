@@ -1,1 +1,1 @@
-<img src="örnek.gif">
+<img src="/images/main.jpg">
