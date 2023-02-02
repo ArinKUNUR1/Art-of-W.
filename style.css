@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -15,6 +17,23 @@ body {
 }
 section {
   height: 100vw;
+}
+
+h3 {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 #welcome-sec {
@@ -159,4 +178,97 @@ nav img {
 
 .box:last-child {
   width: 600px;
+}
+
+#opinions {
+  background-image: radial-gradient( circle, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100% ), url(/images/sec-3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.left-side-3 {
+  max-width: 450px;
+}
+
+.left-side-3 h1 {
+  font-size: 80px;
+}
+
+.left-side-3 h3 {
+  font-size: 24px;
+}
+
+.left-side-3 p {
+  font-family: 'poppins', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+.left-side-3 button {
+  font-family: 'poppins';
+  background-color: rgb(255, 41, 41);
+  color: black;
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: 700;
+  margin-top: 50px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.left-side-3 button:hover {
+  background-color: black;
+  color: rgb(255, 41, 41);
+  transition: all 0.3s;
+}
+
+.right-side-3 {
+  min-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-end;
+}
+
+.card {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: rgb(36, 36, 36);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.card:nth-child(2) {
+  align-self: flex-start;
+}
+
+.person-info {
+  display: flex;
+  gap: 30px;
+}
+
+.name-job h1 {
+  color: crimson;
+}
+
+.name-job p {
+  color: gray;
+}
+
+.comment {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.comment p {
+  color: rgb(159, 159, 159);
+  margin-top: 10px;
+  font-size: 15px;
 }
