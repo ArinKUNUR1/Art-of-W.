@@ -5,11 +5,14 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: white;
   font-family: 'Inter', sans-serif;
 }
-
 section {
   height: 100vh;
 }
@@ -20,14 +23,12 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 70px;
-  align-items: center;
 }
 
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 150px;
 }
 
 nav ul {
@@ -54,70 +55,70 @@ nav img {
 }
 
 .welcome-text {
-    width: 90vw;
-    margin: 100px auto;
-    margin-top: 200px;
+  width: 90vw;
+  margin: 200px auto;
 }
 
 .welcome-text h1 {
-    font-size: 80px;
-    text-align: center;
+  font-size: 80px;
+  text-align: center;
 }
 
 .welcome-text p {
-    text-align: center;
-    font-size: 24px;
-    max-width: 700px;
-    font-weight: 600;
-    margin: 90px auto;
+  text-align: center;
+  font-size: 24px;
+  max-width: 700px;
+  font-weight: 600;
+  margin: 90px auto;
 }
 
 #about {
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 }
 
 .about-text {
-    max-width: 600px;
+  max-width: 600px;
 }
 
 .about-text h1 {
-    font-size: 75px;
-    border-bottom: 10px solid;
+  font-size: 75px;
+  border-bottom: 10px solid;
 }
+
 .about-text p {
-    margin-top: 30px;  
-    font-family: 'inter';
+  margin-top: 30px;
+  font-family: 'inter';
 }
 
 .about-text p span {
-    border-bottom: 1px solid red;
+  border-bottom: 1px solid red;
 }
 
 #about img {
-    max-width: 600px;
-    max-height: 600px;
+  max-width: 600px;
+  max-height: 600px;
 }
 
-@media (max-width:1100px){
-    #about {
-        flex-direction: column;
-    }
+@media (max-width: 1100px) {
+  #about {
+    flex-direction: column;
+  }
 }
 
 #req {
   background-image: radial-gradient(
       circle,
-      rgba(0, 0, 0, 0.103) 0%,
-      rgba(0, 0, 0, 0.938) 50%
+      rgba(0, 0, 0, 0) 0%,
+      rgb(0, 0, 0) 50%
     ),
     url(/images/sec-2.jpg);
   background-position: center;
   background-size: cover;
-}  
+}
 
 .heading h5 {
   text-align: center;
