@@ -1,1 +1,1 @@
-<img src="/images/ezgif.com-gif-maker">
+<img src="/images/ezgif.com-gif-maker.gif">
